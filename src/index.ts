@@ -1,10 +1,7 @@
-const message = "hello world"
-
-console.log(message)
-
-function mensagem(): void {
-    const ola = "olá!!!"
-    console.log(ola)
+class Person {
+    sayMyName() {
+        return "Edwin"
+    }
 }
 
-mensagem()
+export default Person
